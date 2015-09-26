@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   root 'landings#home'
 
   # Example of regular route:
-  get 'bulbasaur' => 'landings#pokemon'
+  get ':nombre' => 'landings#pokemon'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

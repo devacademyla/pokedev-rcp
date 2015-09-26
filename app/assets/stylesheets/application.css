@@ -114,6 +114,64 @@ input[type="text"]:focus {
   padding: 5px 0;
 }
 
+.pokemon-detail {
+  width: 100%;
+  background-color: #e6e6e6;
+  border-radius: 12px;
+  margin-bottom: 50px;
+  display: inline-block;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.pokemon-detail .pokemonid {
+  background-color: #3593DD;
+  border-radius: 12px 0 12px 0;
+  color: white;
+  width: 70px;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+.pokemon-detail img {
+  float: left;
+  width: 30%;
+}
+.stats {
+  margin-left: 360px;
+  padding: 0 2em;
+}
+.type {
+  background-color: #555;
+  padding: 5px;
+  color: white;
+  width: 80px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.evolution {
+  display: inline-block;
+}
+
+.planta { background-color: #9BCC50; }
+.veneno { background-color: #B97FC9; }
+.fuego { background-color: #FD7D24; }
+.volador { background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%); }
+.hielo { background-color: #3dc7ef; }
+.psiquico { background-color: #f366b9; }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
