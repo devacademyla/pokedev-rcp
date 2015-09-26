@@ -13,3 +13,109 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-size: 16px; /* 1em = 16px */
+  margin: 0;
+  padding: 0;
+  font-family: "ubuntu";
+}
+
+h1 {
+  font-size: 4em; /* 64px */
+  margin-top: 0;
+}
+
+h2, h3 {
+  color: #3593DD;
+}
+
+header {
+  background-image: url(overlay.png), url(background_header.jpg);
+  background-position: center, left bottom;
+  background-repeat: repeat, no-repeat;
+  background-size: cover, cover;
+  color: white;
+  height: 480px;
+  padding-top: 150px;
+  text-align: center;
+  transition: all linear 5s;
+}
+header:hover {
+  background-position: center, right top;
+}
+.pokeblue {
+  width: 144px;
+}
+h1 span {
+  color: #3593DD;
+}
+input[type="text"] {
+  border-radius: 12px;
+  border: 5px solid #D3D3D3;
+  color: #2979B8;
+  font-size: 1.2em;
+  padding: 12px;
+  text-align: center;
+  transition: all .5s;
+  width: 500px;
+}
+input[type="text"]:focus {
+  outline: none;
+  border-color: #3593DD;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+.pokemon {
+  background-color: #e6e6e6;
+  border-radius: 12px;
+  width: 23.5%;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all .5s;
+}
+.pokemon:nth-child(4n) {
+  margin-right: 0;
+}
+.pokemon:hover {
+  background-color: #bdd1ff;
+}
+.pokemon a {
+  text-decoration: none;
+}
+.pokemon img {
+  display: inline-block;
+  width: 100%;
+}
+
+.pokemon .pokemonid {
+  background-color: #3593DD;
+  font-size: 1.5em;
+  text-align: center;
+  border-radius: 12px 12px 0 0;
+}
+
+.pokemones h3 {
+  background-color: #646464;
+  border-radius: 0 0 12px 12px;
+  font-size: 1.25em;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.pokemon .pokemonid, .pokemones h3 {
+  color: white;
+  padding: 5px 0;
+}
+
+
+
+
+
+
